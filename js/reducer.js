@@ -1,3 +1,4 @@
+console.log('Hooked in!')
 let state = {count: 0};
 
 function changeState(state, action){
