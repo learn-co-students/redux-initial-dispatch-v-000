@@ -1,6 +1,6 @@
-let state = {count: 0};
+let state;
 
-function changeState(state, action){
+function changeStatechangeState(undefined, { type: '@@INIT' }){
     switch (action.type) {
       case 'INCREASE_COUNT':
         return {count: state.count + 1}
